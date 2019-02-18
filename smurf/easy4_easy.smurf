@@ -1,0 +1,13 @@
+# main SMURF file of model "easy4"
+# created with Phobos 0.7 - https://github.com/rock-simulation/phobos
+
+SMURF version: 0.7
+modelname: easy4_easy
+date: '20170627_09:25'
+files:
+- ../urdf/easy4.urdf
+- easy4_collision.yml
+- easy4_materials.yml
+- easy4_motors.yml
+- easy4_easy_controllers.yml
+- easy4_sensors.yml

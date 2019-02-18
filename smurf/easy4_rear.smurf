@@ -1,0 +1,13 @@
+# main SMURF file of model "easy4_rear"
+# created with Phobos 0.7 - https://github.com/rock-simulation/phobos
+
+SMURF version: 0.7
+modelname: easy4_rear
+date: '20170627_09:24'
+files:
+- ../urdf/easy4_rear.urdf
+- easy4_rear_collision.yml
+- easy4_rear_materials.yml
+- easy4_rear_motors.yml
+- easy4_rear_controllers.yml
+- easy4_rear_sensors.yml

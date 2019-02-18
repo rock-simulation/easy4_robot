@@ -1,0 +1,24 @@
+#collision data definition SMURF file for "easy4_front", 20170627_09:24
+
+collision:
+- bitmask: 2
+  link: root
+  name: Cube.001
+- bitmask: 1
+  link: fl_shoulder_pitch
+  name: Cylinder.021
+- bitmask: 1
+  link: fr_shoulder_pitch
+  name: Cylinder.026
+- bitmask: 4
+  link: fl_shoulder_roll
+  name: Sphere.031
+- bitmask: 1
+  link: fl_shoulder_yaw
+  name: Sphere.032
+- bitmask: 4
+  link: fr_shoulder_roll
+  name: Sphere.033
+- bitmask: 1
+  link: fr_shoulder_yaw
+  name: Sphere.034

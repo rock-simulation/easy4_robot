@@ -1,0 +1,33 @@
+#materials definition SMURF file for "easy4", 20170627_09:25
+
+materials:
+- ambientColor:
+    b: 0.64
+    g: 0.326071
+    r: 0.19181
+  diffuseColor:
+    b: 0.64
+    g: 0.326071
+    r: 0.19181
+  name: Material.001
+  shininess: 25.0
+  specularColor:
+    b: 0.5
+    g: 0.5
+    r: 0.5
+  users: 3
+- ambientColor:
+    b: 0.244805
+    g: 0.486493
+    r: 0.64
+  diffuseColor:
+    b: 0.244805
+    g: 0.486493
+    r: 0.64
+  name: Material.002
+  shininess: 84.0
+  specularColor:
+    b: 1.0
+    g: 1.0
+    r: 1.0
+  users: 25

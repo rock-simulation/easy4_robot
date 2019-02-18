@@ -1,0 +1,15 @@
+#controllers definition SMURF file for "easy4_front", 20170627_09:24
+
+controllers:
+- motors:
+  - fl_shoulder_pitch
+  - fl_shoulder_roll
+  - fl_shoulder_yaw
+  - fl_knee
+  - fr_shoulder_pitch
+  - fr_shoulder_roll
+  - fr_shoulder_yaw
+  - fr_knee
+  name: controller_front
+  rate: 10.0
+  sensors: []

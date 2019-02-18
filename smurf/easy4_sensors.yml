@@ -1,0 +1,98 @@
+#sensors definition SMURF file for "stick_insect", 20170206_12:23
+
+sensors:
+- link: root
+  id: 
+  - Cube
+  - Cube.001
+  - Cube.002
+  - Sphere.032
+  - Cylinder.019
+  - Cylinder.017
+  - Cylinder.021
+  - Cylinder.023
+  - Sphere.034
+  - Cylinder.022
+  - Cylinder.026
+  - Cylinder.020
+  - Cylinder.027
+  - Sphere.030
+  - Cylinder.016
+  - Cylinder.028
+  - Cylinder.018
+  - Cylinder.029
+  - Sphere.036
+  - Cylinder.024
+  - Cylinder.030
+  - Cylinder.025
+  - Cylinder.031
+  name: CollisionWOFeet
+  type: NodeContact
+  rate: 10
+- link: root
+  id: 
+  - fl_shoulder_pitch
+  - fl_shoulder_roll
+  - fl_shoulder_yaw
+  - fl_shoulder_knee
+  - fr_shoulder_pitch
+  - fr_shoulder_roll
+  - fr_shoulder_yaw
+  - fr_shoulder_knee
+  - rl_hip_pitch
+  - rl_hip_roll
+  - rl_hip_yaw
+  - rl_hip_knee
+  - rr_hip_pitch
+  - rr_hip_roll
+  - rr_hip_yaw
+  - rr_hip_knee  
+  name: load
+  type: JointLoad
+  rate: 10
+- link: root
+  id: 
+  - fl_shoulder_pitch
+  - fl_shoulder_roll
+  - fl_shoulder_yaw
+  - fl_shoulder_knee
+  - fr_shoulder_pitch
+  - fr_shoulder_roll
+  - fr_shoulder_yaw
+  - fr_shoulder_knee
+  - rl_hip_pitch
+  - rl_hip_roll
+  - rl_hip_yaw
+  - rl_hip_knee
+  - rr_hip_pitch
+  - rr_hip_roll
+  - rr_hip_yaw
+  - rr_hip_knee  
+  name: torque
+  type: JointAVGTorque
+  rate: 10
+- id:
+  - root
+  link: root
+  name: RotationSensor
+  type: NodeRotation
+- id:
+  - Sphere.012
+  link: root
+  name: Foot_FZ_0
+  type: NodeContactForce
+- id:
+  - Sphere.013
+  link: root
+  name: Foot_FZ_1
+  type: NodeContactForce
+- id:
+  - Sphere.014
+  link: root
+  name: Foot_FZ_2
+  type: NodeContactForce
+- id:
+  - Sphere.015
+  link: root
+  name: Foot_FZ_3
+  type: NodeContactForce

@@ -1,0 +1,15 @@
+#controllers definition SMURF file for "easy4_rear", 20170627_09:24
+
+controllers:
+- motors:
+  - rl_hip_pitch
+  - rl_hip_roll
+  - rl_hip_yaw
+  - rl_knee
+  - rr_hip_pitch
+  - rr_hip_roll
+  - rr_hip_yaw
+  - rr_knee
+  name: controller_rear
+  rate: 10.0
+  sensors: []

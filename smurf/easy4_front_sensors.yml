@@ -1,0 +1,13 @@
+#sensors definition SMURF file for "stick_insect", 20170206_12:23
+
+sensors:
+- link: root
+  id: 
+  - Cube.005
+  - Cylinder.012
+  - Cylinder.013
+  - Cylinder.008
+  - Cylinder.009
+  name: CollisionWOFeet
+  type: NodeContact
+  rate: 10
